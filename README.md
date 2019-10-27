@@ -16,8 +16,8 @@ python
 
 ## Built With
 
-* [Python](https://python.org/)
-* [Jupyter Notebook](http://jupyter.org)
+* [Python](https://www.python.org/)
+* [Jupyter Notebook](https://jupyter.org/)
 
 ## Authors
 
