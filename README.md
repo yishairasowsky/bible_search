@@ -16,8 +16,8 @@ python
 
 ## Built With
 
-* [Jupyter Notebook](http://www.dropwizard.io/1.0.2/docs/)
-* [Python](https://maven.apache.org/) - Dependency Management
+* [Python](https://python.org/)
+* [Jupyter Notebook](http://jupyter.org)
 
 ## Authors
 
