@@ -19,7 +19,7 @@ python
 ## Built With
 
 * [Python](https://www.python.org/)
-* [Jupyter Notebook](https://jupyter.org/)
+* [Jupyter](https://jupyter.org/)
 
 ## Authors
 
