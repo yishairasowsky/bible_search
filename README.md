@@ -1,3 +1,5 @@
+![Torah Scroll](torah.png "Torah Scroll")
+
 # Bible Search
 
 You have a verse from Tanach, and you want to find other verses that are similar to it. You type in the book, chapter, and verse of your verse. The machine will use TF-IDF to then produce a ranked list of verses that most resemble yours!
