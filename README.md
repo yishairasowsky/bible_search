@@ -23,7 +23,7 @@ python
 
 ## Authors
 
-* **Yishai Rasowsky** - ** - [Visit on GitHub](https://github.com/yishairasowsky)
+* **Yishai Rasowsky** - [Visit on GitHub](https://github.com/yishairasowsky)
 
 ## License
 
