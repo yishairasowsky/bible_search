@@ -1,0 +1,63 @@
+title;http://purl.org/dc/elements/1.1/;Hebrew Text Database ETCBC4
+creator;http://easy.dans.knaw.nl/easy/easymetadata/eas/;Peursen, Prof. Dr. W.T. van (ETCBC, VU Amsterdam)
+subject;http://purl.org/dc/elements/1.1/;Ancient Hebrew;Hebrew Bible;Text Databases;Linguistic Annotation Framework
+description;http://purl.org/dc/elements/1.1/;The ETCBC database of the Hebrew Bible (formerly known as WIVU database), contains the scholarly text of the Hebrew Bible with linguistic markup.
+A previous version can be found in EASY (see the link below).
+The present dataset is an improvement in many ways: 
+
+(A) it contains a new version of the data, called ETCBC4.
+The content has been heavily updated, with new linguistic annotations and a better organisation of them, and lots of additions and corrections as well.
+
+(B) the data format is now Linguistic Annotation Framework (see below). This contrasts with the previous version, which has been archived as a database dump in a specialised format: Emdros (see the link below).
+
+(C) a new tool, LAF-Fabric is added to process the ETCBC4 version directly from its LAF representation. The picture on this page shows a few samples what can be done with it.
+
+(D) extensive documentation is provided, including a description of all the computing steps involved in getting the data in LAF format.
+
+Since 2012 there is an ISO standard for the stand-off markup of language resources, Linguistic Annotation Framework (LAF).
+
+As a result of the SHEBANQ project (see link below), funded by CLARIN-NL and carried out by the ETCBC and DANS, we have a created a tool, LAF-Fabric, by which we can convert EMDROS databases of the ETCBC into LAF and then do data analytic work by means of e.g. IPython notebooks.
+This has been used for the Hebrew Bible, but it can also be applied to the Syriac text in the CALAP (see link below).
+
+This dataset contains a folder laf with the laf files, and the necessary declarations are contained in the folder decl.
+Among these declarations are feature declaration documents, in TEI format (see link below), with hyperlinks to concept definitions in ISOcat (see link below).
+For completeness, the ISOcat definitions are repeated in the feature declaration documents.
+These definitions are terse, and they are more fully documented in the folder documentation.
+contributor;http://easy.dans.knaw.nl/easy/easymetadata/eas/;Talstra, Prof. Dr. E. (Eep Talstra Centre for Bible And Computing, VU University Amsterdam);Dyk, Dr. J. (Eep Talstra Centre for Bible And Computing, VU University Amsterdam);Sikkel, M. Sc. C. (Eep Talstra Centre for Bible And Computing, VU University Amsterdam);Glanz, Dr. O. (Seventh-day Adventist Theological Seminary, Andrews University Berrien Springs, Michigan);Oosting, Dr. R. (Leiden Institute for Religious Studies, Leiden University);Kalkman, Drs. G. (Eep Talstra Centre for Bible And Computing, VU University Amsterdam);Roorda, Dr. D. (Data Archiving and Networked Services, Royal Netherlands Academy of Arts and Sciences)
+created;http://easy.dans.knaw.nl/easy/easymetadata/eas/;2014-07-13
+available;http://easy.dans.knaw.nl/easy/easymetadata/eas/;2014-07-29
+dateSubmitted;http://easy.dans.knaw.nl/easy/easymetadata/eas/;2014-07-18
+type;http://purl.org/dc/elements/1.1/;Dataset
+format;http://purl.org/dc/elements/1.1/;application/x-cmdi+xml;xml;linguistic annotation framework (LAF);text encoding initiative (TEI);unicode text
+identifier;http://purl.org/dc/elements/1.1/;urn:nbn:nl:ui:13-048i-71;10.17026/dans-2z3-arxf;ETCBC4;WIVU;easy-dataset:58245
+relation;http://easy.dans.knaw.nl/easy/easymetadata/eas/;title=EASY dataset 'Text Database of the Hebrew Bible' WIVU 2011 URI=http://www.persistent-identifier.nl/?identifier=urn%3Anbn%3Anl%3Aui%3A13-ukhm-eb;title=Website: Emdros - the database engine for analyzed or annotated text URI=http://emdros.org;title=SHEBANQ project (DANS announcement) URI=http://www.dans.knaw.nl/nl/actueel/nieuws/hebreeuwse-tekstdatabase-krijgt-clarin-status;title=SHEBANQ project (VU announcement) URI=http://www.godgeleerdheid.vu.nl/nl/nieuws-en-agenda/nieuwsarchief/2013/jan-mrt/clarin-subsidie-voor-hebreeuwse-database-op-internet.asp;title=EASY dataset: 'Computer-Assisted Linguistic Analysis of the Peshitta' URI=http://www.persistent-identifier.nl/?identifier=urn%3Anbn%3Anl%3Aui%3A13-vmxs-1o;title=ISO 24612:2012: LAF URI=http://www.iso.org/iso/catalogue_detail.htm?csnumber=37326;title=Github repository: LAF-Fabric URI=https://github.com/ETCBC/laf-fabric;title=Github repository: LAF work done in IPython notebooks URI=https://github.com/ETCBC/laf-fabric-nbs;title=TEI Feature Structure Declarations URI=http://www.tei-c.org/release/doc/tei-p5-doc/en/html/FS.html#FD;title=Website: CLARIN-NL URI=http://www.clarin.nl;title=ISOcat Concept Registry URI=http://www.isocat.org;title=Eep Talstra Centre for Bible and Computing URI=http://www.godgeleerdheid.vu.nl/etcbc;title=Leiden Centre for the Study of Religion URI=http://www.hum.leiden.edu/lias/lucsor;title=SHEBANQ concept selection in ISOcat URI=http://www.isocat.org/rest/dcs/739;title=SHEBANQ Query Saver (CLARIN demonstrator) URI=http://shebanq.ancient-data.org;title=Bible Online Learner URI=http://bibleol.3bmoodle.dk/text/select_text;title=IsVersionOf: Talstra, Prof. Dr. E. (2011): Text Database of the Hebrew Bible ETCBC3. DOI: 10.17026/dans-x8h-y2bv URI=http://dx.doi.org/10.17026/dans-x8h-y2bv;title=HasVersion: Peursen, Prof. Dr. W.T. van (Eep Talstra Centre for Bible And Computing, VU University Amsterdam) et.al. (2015): Hebrew Text Database ETCBC4b. DOI: 10.17026/dans-z6y-skyh URI=http://dx.doi.org/10.17026/dans-z6y-skyh
+source;http://purl.org/dc/elements/1.1/;The ETCBC4 text is based on the printed edition of the Biblia Hebraica Stuttgartensia, editio quinta emendata (1997).
+This edition, published by the German Bible Society,  represents the text found in the oldest complete manuscript of the
+Hebrew Bible/ Old Testament, the so-called Codex Leningradensis (Codex Firkovich B 19 A).
+Although it cannot be taken for granted that this manuscript, and hence the scholarly edition that represents it,
+always contains the best (“original”) reading and although we have older manuscripts for various parts of the Bible
+(Dead Sea Scrolls, some other codices that cover only part of the Hebrew Bible),
+taking this edition as basis for the electronic text was a natural step because of its central role as
+*the* scholarly edition of the Old Testament that is almost exclusively used by biblical scholars
+and that is the basis for almost all Bible translations in modern languages as far as they translate the Hebrew text.               
+
+The linguistic features of ETCBC4 have been provided by the Eep Talstra Centre for Bible and Computing.
+At the moment of depositing, this version is still in beta.
+The data deposited is the newest data that was available at the date of depositing.
+
+This LAF resource has been generated from the contents of an Emdros database 
+
+However, not all data that the ETCBC group is producing, is published in this form.
+We have made a selection of some extra data, and have added that as an extra LAF annotation file, which can be used in
+conjunction with the LAF resource originating from the Emdros database.
+
+LAF-Fabric is on Github (see the link below). A snapshot of the version which helped to produce the ETCBC4 in its LAF form, is included in the this dataset, including source code and documentation. We refer to the ETCBC organization on Github for more examples of work done on with LAF-Fabric operating on ETCBC4.
+language;http://purl.org/dc/elements/1.1/;eng;Ancient Hebrew (hbo);Official Aramaic; Imperial Aramaic (arc)
+spatial;http://purl.org/dc/terms/;Middle East
+temporal;http://purl.org/dc/terms/;1000 BC - 1000 AD
+accessRights;http://purl.org/dc/terms/;OPEN_ACCESS_FOR_REGISTERED_USERS
+license;http://purl.org/dc/terms/;accept
+rightsHolder;http://purl.org/dc/terms/;Eep Talstra Centre for Bible And Computing, VU University Amsterdam
+audience;http://purl.org/dc/terms/;easy-discipline:9;easy-discipline:19;easy-discipline:22
+remarks;http://easy.dans.knaw.nl/easy/easymetadata/eas/;Please note:
+As of November 16th, 2015, new versions of these data files are available: Hebrew Text Database ETCBC4b, http://dx.doi.org/10.17026/dans-z6y-skyh
